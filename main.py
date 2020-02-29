@@ -1,4 +1,5 @@
-import flask
+from flask import Flask
+import os
 
 __Version__ = 'beta0.1'
 __Author__ = ['littlefish12345']
