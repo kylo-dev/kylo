@@ -1,7 +1,7 @@
 # Kylo Website Repository
 ## Credits and license
-Template from [Templated](https://templated.co). \
-Released for free under the [Creative Commons Attribution 3.0 license](https://creativecommons.org/licenses/by/3.0/).
+Template from [DaveGamache](https://github.com/dhg/davegamache/tree/master/parallax). \
+Released for free under the [Creative Commons Zero v1.0 Universal](https://github.com/sourTaste000/kylo/blob/master/LICENSE.txt).
 ___
 ## How to run
 If you are using macOS, please double click `run.command`. \
