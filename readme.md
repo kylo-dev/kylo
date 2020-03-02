@@ -1,7 +1,7 @@
 # Kylo Website Repository
 ## Credits and license
-Template from [DaveGamache](https://github.com/dhg/davegamache/tree/master/parallax). \
-Released for free under the [Creative Commons Zero v1.0 Universal](https://github.com/sourTaste000/kylo/blob/master/LICENSE.txt).
+Fullpage.js from [alvarotrigo](https://github.com/alvarotrigo/fullPage.js/). \
+Released under [GNU General Public License](https://github.com/sourTaste000/kylo/blob/master/LICENSE).
 ___
 ## How to run
 If you are using macOS, please double click `run.command`. \
