@@ -3,12 +3,13 @@
 	<head>
 		<link rel="stylesheet" type="text/css" href="./js/fullpage.js/src/fullpage.css" />
 		<script type="text/javascript" src="./js/fullpage.js/src/fullpage.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 	</head>
 	
 	<body>
 		<div id="fullpage">
 		<div class="section">
-			<img data-src="./static/banner1.png">
+			<img data-src="./static/banner1.png" id="img" alt="banner1">
 		</div>
 		<div class="section">Some section</div>
 		<div class="section">Some section</div>
@@ -23,6 +24,18 @@
 
 			//methods
 			fullpage_api.setAllowScrolling(true);
+            
+            //resize image
+            function resize(){
+                var w = window.innerWidth;
+                var h = window.innerHeight;
+                $("#img").css("width", w);
+                $("#img").css("height", h);
+            }
+            
+            window.onload = function(){
+                resize();
+            }
 		</script>
 	</body>
 
