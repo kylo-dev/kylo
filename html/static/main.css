@@ -1,0 +1,13 @@
+#1 {
+    background-image: url(banner1.png);
+    position: absolute;
+    display: inline-block;
+    bottom: 0px;
+    left: 0px;
+}
+
+body {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
