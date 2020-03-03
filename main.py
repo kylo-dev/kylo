@@ -5,7 +5,7 @@ __Version__ = 'beta0.1'
 __Author__ = ['littlefish12345']
 
 def read_html(name):
-    f = open(os.path.join(os.getcwd(),'html/' , name+'.html'),'r')
+    f = open(os.path.join(os.getcwd(),'html/' , name+'.html'),'r',encoding='utf-8')
     html = f.read()
     f.close()
     return html
