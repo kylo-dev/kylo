@@ -12,6 +12,26 @@ html {
 	src: url('../statics/font/Tommy-Thin.ttf')
 }
 
+@font-face {
+    font-family: NotoSerifSC-Regular;
+    src: url('../statics/font/NotoSerifSC-Regular.otf')
+}
+
+@font-face {
+    font-family: NotoSerifSC-Light;
+    src: url('../statics/NotoSerifSC-Light.otf')
+}
+
+@font-face {
+    font-family: Spartan-Regular;
+    src: url('../statics/Spartan-Regular.ttf')
+}
+
+@font-face {
+    font-family: Spartan-Light;
+    src: url('../statics/Spartan-Light.ttf')
+}
+
 .title {
     position: absolute;
     width: auto;
