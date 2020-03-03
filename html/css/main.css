@@ -3,33 +3,23 @@ html {
 }
 
 @font-face {
-	font-family: Tommy-Light;
-	src: url('../statics/font/Tommy-Light.ttf')
-}
-
-@font-face {
-	font-family: Tommy-Thin;
-	src: url('../statics/font/Tommy-Thin.ttf')
-}
-
-@font-face {
     font-family: NotoSerifSC-Regular;
-    src: url('../statics/font/NotoSerifSC-Regular.otf')
+    src: url('../statics/font/NotoSerifSC-Regular.ttf')
 }
 
 @font-face {
     font-family: NotoSerifSC-Light;
-    src: url('../statics/NotoSerifSC-Light.otf')
+    src: url('../statics/font/NotoSerifSC-Light.ttf')
 }
 
 @font-face {
     font-family: Spartan-Regular;
-    src: url('../statics/Spartan-Regular.ttf')
+    src: url('../statics/font/Spartan-Regular.ttf')
 }
 
 @font-face {
     font-family: Spartan-Light;
-    src: url('../statics/Spartan-Light.ttf')
+    src: url('../statics/font/Spartan-Light.ttf')
 }
 
 .title {
@@ -39,7 +29,7 @@ html {
     margin-top: -25px;
     margin-left: -50px;
     color: #ffffff;
-    font-family: 'Tommy-Light';
+    font-family: 'Spartan-Regular';
 }
 
 .paragraph {
@@ -48,6 +38,6 @@ html {
     height: 50px;
     margin-left: -50px;
     color: #ffffff;
-    font-family: 'Tommy-Thin';
+    font-family: 'Spartan-Light';
 }
 
