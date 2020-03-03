@@ -2,73 +2,32 @@ html {
     overflow: scroll;
 }
 
-@font-face
-{
-font-family: Tommy-Light;
-src: url('../statics/font/Tommy-Light.ttf')
+@font-face {
+	font-family: Tommy-Light;
+	src: url('../statics/font/Tommy-Light.ttf')
 }
 
-@font-face
-{
-font-family: Tommy-Thin;
-src: url('../statics/font/Tommy-Thin.ttf')
+@font-face {
+	font-family: Tommy-Thin;
+	src: url('../statics/font/Tommy-Thin.ttf')
 }
 
-.title1 {
+.title {
     position: absolute;
     width: auto;
     height: 50px;
-    top: 33%;
-    left: 48%;
     margin-top: -25px;
     margin-left: -50px;
     color: #ffffff;
     font-family: 'Tommy-Light';
-    font-size: 80px;
-
 }
 
-.paragraph1 {
+.paragraph {
     position: absolute;
     width: auto;
     height: 50px;
-    top: 45%;
-    left: 32%;
     margin-left: -50px;
     color: #ffffff;
     font-family: 'Tommy-Thin';
-	font-size: 50px;
 }
 
-.title2 {
-    position: absolute;
-    width: auto;
-    height: 50px;
-    top: 50%;
-    left: 48%;
-    margin-top: -25px;
-    margin-left: -50px;
-    color: salmon;
-    font-family: 'Oxygen';
-    font-size: 50px;
-
-}
-
-.paragraph2 {
-    position: absolute;
-    width: 1000px;
-    height: 50px;
-    top: 58%;
-    left: 20%;
-    margin-left: -50px;
-    color: salmon;
-    font-family: 'Oxygen';
-}
-
-.title2 {
-    text-shadow: 0 0 10px coral, 0 0 50px coral, 0 0 100px coral;
-}
-
-.parahraph2 {
-    text-shadow: 0 0 10px coral, 0 0 50px coral, 0 0 100px coral;
-}
