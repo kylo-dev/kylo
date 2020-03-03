@@ -40,12 +40,12 @@ def get_js_file(js_name):
     else:
         flask.abort(404) #没文件就返回404
 
-@app.route('/static/<path>') #处理static
+@app.route('/statics',defaults={'path':''}) #处理static
+@app.route('/statics/<path:path>')
 def get_static_file(path):
-    print(path)
     static_name = ''.join(path.split('..')) #稍微预防一下
     static_list = static_name.split('/')
-    static_path = os.path.join(os.getcwd(),'html','static')
+    static_path = os.path.join(os.getcwd(),'html','statics')
     for strs in static_list:
         static_path = os.path.join(static_path,strs)
     print(static_path)
