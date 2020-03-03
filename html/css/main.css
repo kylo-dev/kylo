@@ -2,6 +2,8 @@ html {
     overflow: scroll;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+SC&display=swap');
+
 @font-face {
     font-family: NotoSerifSC-Regular;
     src: url('../statics/font/NotoSerifSC-Regular.ttf')
@@ -38,6 +40,6 @@ html {
     height: 50px;
     margin-left: -50px;
     color: #ffffff;
-    font-family: 'NotoSerifSC-Light';
+    font-family: 'Noto Serif SC', ;
 }
 
