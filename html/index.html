@@ -1,63 +1,110 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
+	<head>
+		<title>Kylo- A Wonderfule Minecraft Server</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body>
 
-<head>
-	<meta charset="UTF-8">
+		<!-- Header -->
+			<header id="header">
+				<div class="logo"><a href="index.html">Kylo <span>IP: kylo.xyz</span></a></div>
+				<a href="#menu"><span>Menu</span></a>
+			</header>
 
-    <link rel="stylesheet" type="text/css" href="./css/fullpage.css" />
-    <link rel="stylesheet" type="text/css" href="./css/main.css">
-	<script type="text/javascript" src="./js/fullpage.js"></script>
-    <script type="text/javascript" src="./js/jquery-3.4.1.min.js"></script>
-</head>
+		<!-- Nav -->
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="generic.html">Mod Server</a></li>
+				</ul>
+			</nav>
 
-<body>
-    <div id="fullpage">
-        <div class="section" id="1">
-            <img data-src="./statics/image/banner1.png" id="img" alt="banner1">
-            <h1 class="title" style="font-size: 80px; top: 33%; left: 48%;">Kylo</h1>
-        	<span class="paragraph" style="font-size: 50px; top: 45%; left: 32%;">一个Minecraft生存服务器</span>
-		</div>
-        <div class="section" id="2">
-            <img data-src="./statics/image/banner2.png" id="img2" alt="banner2">
-            <h1 class="title" style="font-size: 75px; top:15%; left:48%;">冒险</h1>
-        	<span class="paragraph" style="font-size: 40px; top:25%; left:23%;">你的目标，就是生存。在Kylo，没有人能阻止你的脚步。</span>
-		</div>
-        <div class="section" id="3">
-            <img data-src="./statics/image/banner3.png" id="img3" alt="banner3">
-        </div>
-        <div class="section" id="4">
-            <img data-src="./statics/image/banner4.png" id="img4" alt="banner4">
-        </div>
-    </div>
-    <script>
-        new fullpage('#fullpage', {
-            //options here
-            autoScrolling: true,
-            scrollHorizontally: true
-        });
+		<!-- Banner -->
+			<section id="banner" class="bg-img" data-bg="banner.jpg">
+				<div class="inner">
+					<header>
+						<h1>Kylo</h1>
+                        <h2>A Wonderful Minecraft Server</h2>
+					</header>
+				</div>
+			</section>
 
-        //methods
-        fullpage_api.setAllowScrolling(true);
+		<!-- One -->
+			<section id="one" class="wrapper post bg-img" data-bg="banner2.png">
+				<div class="inner">
+					<article class="box">
+						<header>
+							<h2>About Kylo</h2>
+						</header>
+						<div class="content">
+							<p>Welcome to Kylo, probably the most unconstrained pure survival server. Here, your goal is to live. The absence of any protective plug-ins means that you must ensure your own safety and get out of the spawnpoint. Then, everything is handed over to you, do whatever you want!</p>
+						</div>
+					</article>
+				</div>
+				<a href="#two" class="more">Learn More</a>
+			</section>
 
-        //resize image
-        function resize() {
-            var w = window.innerWidth;
-            var h = window.innerHeight;
-            $("#img").css("width", w);
-            $("#img").css("height", h);
-            $("#img2").css("width", w);
-            $("#img2").css("height", h);
-            $("#img3").css("width", w);
-            $("#img3").css("height", h);
-            $("#img4").css("width", w);
-            $("#img4").css("height", h);
+		<!-- Two -->
+			<section id="two" class="wrapper post bg-img" data-bg="banner5.png">
+				<div class="inner">
+					<article class="box">
+						<header>
+							<h2>Kylo Server</h2>
+						</header>
+						<div class="content">
+							<p>Kylo's main server consists of a dual E5 processor, so each player can build large redstone machinery without worrying about server lag. The Kylo maintenance team has also deployed dedicated line acceleration nodes on all continents around the world, and Kylo's intelligent analysis system ensures that you can play stably and smoothly in any corner of the world.</p>
+						</div>
+					</article>
+				</div>
+				<a href="#three" class="more">Learn More</a>
+			</section>
 
-        }
-        window.onload = function() {
-            resize();
-        }
+		<!-- Three -->
+			<section id="three" class="wrapper post bg-img" data-bg="banner4.png">
+				<div class="inner">
+					<article class="box">
+						<header>
+							<h2>Title</h2>
+						</header>
+						<div class="content">
+							<p>Whether you are a redstone expert or a newbie who is just getting started, we believe you can find your own place in Kylo. Destroy terrain, beautiful houses, sophisticated redstone machines ... you can find them in Kylo.</p>
+						</div>
+					</article>
+				</div>
+				<a href="#four" class="more">Learn More</a>
+			</section>
 
-    </script>
-</body>
+		<!-- Four -->
+			<section id="four" class="wrapper post bg-img" data-bg="banner3.png">
+				<div class="inner">
+					<article class="box">
+						<header>
+							<h2>Title</h2>
+						</header>
+						<div class="content">
+							<p>Work In Progress</p>
+						</div>
+					</article>
+				</div>
+			</section>
 
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+                    Click <a href="https://discord.gg/kWKNrQc">here</a> to join our discord server!
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
